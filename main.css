@@ -107,6 +107,16 @@ body
     text-align: center;
     position: relative;
 }
+.card 
+{
+    width: auto;
+    max-width:38rem ;
+ 
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 25px; 
+}
+
 
 /* ------------   Bloc 4 ----------------*/
 #Contact
