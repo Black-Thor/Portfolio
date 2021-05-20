@@ -84,7 +84,7 @@
         </div>
         
         <div class="row gx-5">
-          <div class ="col-6">
+          <div class ="col-4">
             <div class="card "> <!--carte 1-->
 
 
@@ -120,7 +120,7 @@
     
           </div>
 
-          <div class ="col-6">
+          <div class ="col-4">
             <div class="card "> <!--carte 2-->
 
               <!-- Carroussel Card2-->
@@ -156,7 +156,7 @@
             </div>
           </div>
 
-          <div class ="col-6">
+          <div class ="col-4">
             <div class="card" > <!--carte 3-->
 
              <!-- Carroussel Card3-->
@@ -190,40 +190,6 @@
             </div>
           </div>
 
-          <div class ="col-6">
-            <div class="card" > <!--carte 4-->
-
-             <!-- Carroussel Card 4 -->
-              <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/pizza1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/pizza2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/pizza3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-
         </div>
         
         
@@ -231,23 +197,67 @@
       </div>
   
        <!-- Contenue Page 4-->
-       <div class ="container-fluid" id="Contact">
+       <div class ="container-fluid " id="Contact">
         <div class = "text-center text-dark  ">
           <h1 class="pt-5" > Contactez moi </h1>
-          
         </div>
+        
+        <div class="container-fluid w-50 " id="formulaire">
+            <form class="row g-3 rounded bg-light "> 
+              <div> <!-- Name input-->
+                <label for="name"> Nom </label>
+                <div class="col-md-6 offset-md-3">
+                  <input type="text" placeholder="Votre Nom" class="form-control">
+                </div>
+              </div>
+              <div> <!-- mail input-->
+                <label for="mail"> E-mail </label>
+                <div class="col-md-6 offset-md-3">
+                  <input type="text" placeholder="Votre E-mail" class="form-control">
+                </div>
+              </div>
+              <div> <!-- message body-->
+                <label for="message"> Votre message </label>
+                <div class="col-md-6 offset-md-3">
+                  <textarea class="form-control" placeholder="Ecrivez votre message ici" rows="7"></textarea>
+                </div>
+              </div>
+              <!-- Form actions -->
+              <div >
+                <div class="col-md-6 offset-md-3">
+                  <button type="submit" class="btn btn-primary btn-lg form_button">Submit</button>
+                </div>
+              </div>
 
-        <div class="container">
-          <h2> retrouvez moi sur : </h2>
-          <div class="row row-cols-5">
-            <div class="col">Codepen</div>
-            <div class="col">Linkedin</div>
-            <div class="col">GitHub</div>
-            <div class="col">FreeCodeCamp</div>
-            <div class="col">Twitter</div>
-          </div>
+            </form>
         </div>
-
+      
+        <hr class="mb-0">
+        <footer>
+          <h5> Retrouvez moi sur </h4>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#" data-text="Codepen"  target="_blank"> 
+                <i class="fab fa-codepen fa-2x"></i>
+           </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" data-text="Twitter" target="_blank">
+                <i class="fab fa-twitter fa-2x "></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" data-text="GitHub"  target="_blank">
+                <i class="fab fa-github fa-2x"></i> 
+           </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" data-text="FreeCodeCamp"  target="_blank"> 
+                <i class="fab fa-free-code-camp fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+       </footer>
         <!-- 
         <div class ="row">
           <div class ="col-2">
