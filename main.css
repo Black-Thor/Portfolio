@@ -95,7 +95,7 @@ body
 {
      position : relative ; 
     width : 100%; 
-    height : 100vh;
+    height : 145vh;
     background : #20B1C9 ; 
     background-size: cover;
     text-align : center;
@@ -115,6 +115,7 @@ body
     margin: 0 auto; 
     float: none; 
     margin-bottom: 25px; 
+    margin-top: 50px;
 }
 
 
