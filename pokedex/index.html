@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="main.css">
+ 
+</head>
+<body>
+    <h1>PokeDex</h1>
+    <div class="Liste">
+      <h2>Quel intervalle de pokemon souhaitez vous afficher : </h2>
+      <form>
+        <input type="text" placeholder="Entrez une min ici" id="min">
+        <input type="text" placeholder="Entrez une max ici" id="max">
+        
+        <button type="button" onclick="getValue();">Récupérer la valeur</button>
+      </form>
+    </div>
+    <div class="Choix">
+      <h2>Choisisez le pokemon recherchez</h2>
+      <form>
+        <input type="text" placeholder="Entrez une valeur ici" id="find">
+        <button type="button" onclick="findPoke();">Récupérer la valeur</button>
+      </form>
+    </div>
+   
+    
+    
+    <div id="poke_container" class="poke-container"></div>
+    <script src="poke.js"></script>
+</body>
+</html>
